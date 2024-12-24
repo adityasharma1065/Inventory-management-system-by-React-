@@ -51,7 +51,7 @@ const App = () => {
 
   return (
       <div className='p-10 w-fll h-screen bg-zinc-300 flex flex-col items-center gap-20 justify-center'>
-        <h1 className='text-[50px]'>STORE HOUSE</h1>
+        <h1 className='text-[50px]'>INVENTORY</h1>
         <Cards editHandle={EditDataHanlder} changeHandle={ChangeHandler} deleteHandle={DeleteHandler} data={data} />
         <Form addData={AddDataHandler}/>
     </div>
